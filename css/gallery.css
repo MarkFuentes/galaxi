@@ -1,0 +1,111 @@
+.gallery
+{
+  position: relative;
+  width: 50%;
+  height: auto;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/****************ALTER STYLES MARK 06-05-2016 INSP ************************/
+
+.album-cover
+{
+  position: relative;
+  width:350px;
+  height:350px;
+  float:left;
+  overflow: hidden;
+  margin: 0;
+  padding:50;
+  border-radius:5px;
+}
+
+.photo-cover
+{
+  position: relative;
+  width:200px;
+  height:200px;
+  float:left;
+  overflow: hidden;
+  margin: 0;
+  padding:50;
+  border-radius:2px;
+}
+
+.thumb-wrapper
+{
+  position:relative;
+  width:200px;
+  height:300px;
+  margin:auto;
+  border-radius: 4px;
+  /*box-shadow: 10px 9px 5px -8px rgba(0,0,0,0.69);*/
+}
+
+/*.thumb-wrapper:hover {box-shadow: 10px 9px 5px -8px rgba(0,0,0,0.69);}*/
+
+.thumbnail
+{
+  position: relative;
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  margin-top: 2px;
+  border: 2px solid #d9d9d9;
+  padding:0;
+}
+
+.thumbnail img
+{
+  width:auto !important;
+  width:100%;
+  height:auto !important;
+  position:relative;
+  display:block;
+  margin:auto;
+}
+
+.album-name
+{
+  position: relative;
+  width: auto;
+  text-align: center;
+  margin: auto;
+  color:#000;
+}
+
+.showAlb
+{
+  color:#000;
+}
+
+.caption{
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.btn .btn-primary
+{
+  background-color: white;
+}
+
+.fancybox-custom .fancybox-skin {
+ box-shadow: 0 0 50px #222;
+}
+
+.img1, .img2
+{
+margin: 0px -2px 3px 0;
+}
+
+.img1
+{
+ width: 24%;
+}
+.img2
+{
+width: 32.05%;
+}
